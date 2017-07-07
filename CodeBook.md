@@ -11,17 +11,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):   
 
 1. Merges the training and the test sets to create one data set.
-    1.1 Load raw data sets
-    1.2 Organise and combinie raw data sets into single one
+    * 1.1 Load raw data sets
+    * 1.2 Organise and combinie raw data sets into single one
     
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-    2.1 xData subset based on the logical vector to keep only desired            columns, i.e. mean() and std()
+    * 2.1 xData subset based on the logical vector to keep only desired            columns, i.e. mean() and std()
     
 3. Uses descriptive activity names to name the activities in the data set
 
 4. Appropriately labels the data set with descriptive variable names.
-    4.1 Organizing and combining all data sets into single one
-    4.2 Defining descriptive names for all variables
+    * 4.1 Organizing and combining all data sets into single one
+    * 4.2 Defining descriptive names for all variables
     
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
