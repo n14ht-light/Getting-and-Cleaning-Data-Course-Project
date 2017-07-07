@@ -43,11 +43,11 @@ View(yDataSet)
 names(subjectDataSet) <- "Subject"
 summary(subjectDataSet)
 
-# Organizing and combining all data sets into single one
+# Organise and combine all data sets into single one
 
 singleDataSet <- cbind(xDataSet_mean_std, yDataSet, subjectDataSet)
 
-# Defining descriptive names for all variables
+# Define descriptive names for all variables
 
 names(singleDataSet) <- make.names(names(singleDataSet))
 names(singleDataSet) <- gsub('Acc',"Acceleration",names(singleDataSet))
